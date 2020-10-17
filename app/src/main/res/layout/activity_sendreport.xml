@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".sendreport">
+   <TextView
+       android:text="Your details"
+       android:textColor="#000000"
+       android:textSize="30dp"
+       android:layout_gravity="center"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"  />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:text="Name"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:layout_width="152dp"
+            android:layout_height="41dp"  />
+        <TextView
+            android:id="@+id/uname"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:layout_width="200dp"
+            android:layout_height="41dp"  />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:text="Email ID"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:layout_width="152dp"
+            android:layout_height="41dp"  />
+        <TextView
+            android:id="@+id/uemail"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:layout_width="250dp"
+            android:layout_height="41dp"  />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:text="Type of issue: "
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:layout_width="152dp"
+            android:layout_height="60dp"  />
+        <TextView
+            android:id="@+id/utype"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:layout_width="250dp"
+            android:layout_height="60dp"  />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:text="Duration"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:layout_width="152dp"
+            android:layout_height="41dp"  />
+        <TextView
+            android:id="@+id/uduration"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:layout_width="250dp"
+            android:layout_height="41dp"  />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:text="Severity"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:layout_width="152dp"
+            android:layout_height="41dp"  />
+        <TextView
+            android:id="@+id/useverity"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:layout_width="250dp"
+            android:layout_height="41dp"  />
+
+    </LinearLayout>
+    <TextView
+        android:text="Provide your mobile number if you want or just type 0"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"  />
+
+    <EditText
+        android:inputType="phone"
+        android:hint="Your number"
+        android:id="@+id/usernumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:id="@+id/reportsendbutton"
+        android:layout_width="79dp"
+        android:layout_height="56dp"
+        android:layout_gravity="center_horizontal"
+        app:srcCompat="@drawable/ic_baseline_send_24"
+        tools:ignore="VectorDrawableCompat" />
+
+</LinearLayout>

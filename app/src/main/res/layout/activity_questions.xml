@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".questions">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Type of your issue?"
+        android:textSize="20dp"
+
+        android:textColor="#000000"/>
+<RadioGroup
+
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/typeofissueradio">
+    <RadioButton
+
+        android:id="@+id/generalhealthradio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="General health issues"
+        />
+    <RadioButton
+
+        android:id="@+id/chronicradio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chronic health issue(A disease persisting for a long time)"   />
+    <RadioButton
+
+        android:id="@+id/acuteradio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Acute disease(Short duration but severe)"
+        />
+    <RadioButton
+
+        android:id="@+id/injury"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Injury"
+        />
+
+</RadioGroup>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Severity of the issue?"
+        android:textSize="20dp"
+
+        android:textColor="#000000"/>
+    <RadioGroup
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/severityofissueradio">
+        <RadioButton
+
+            android:id="@+id/mild"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mild"
+            />
+        <RadioButton
+
+            android:id="@+id/avarege"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Not sure"   />
+        <RadioButton
+
+            android:id="@+id/severe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Severe"
+            />
+
+    </RadioGroup>
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="How long are you suffering ?"
+        android:textSize="20dp"
+
+        android:textColor="#000000"/>
+    <RadioGroup
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/durationofissueradio">
+        <RadioButton
+            android:id="@+id/lessthanaweek"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Less than a week"
+            />
+        <RadioButton
+            android:id="@+id/lessthanamonth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Less than a month"   />
+        <RadioButton
+            android:id="@+id/morethanamonth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="More than a month"
+            />
+
+    </RadioGroup>
+<Button
+    android:id="@+id/finishbutton"
+    android:textColor="#ffffff"
+    android:layout_gravity="center"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/newone"
+    android:text="Finish"
+    />
+</LinearLayout>

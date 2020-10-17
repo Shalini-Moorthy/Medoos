@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    android:padding="10dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/hospitalname"
+        android:layout_width="match_parent"
+
+        android:layout_height="30dp"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        android:textStyle="bold|italic" />
+    <TextView
+        android:id="@+id/specification"
+        android:layout_width="match_parent"
+        android:layout_height="25dp" />
+    <TextView
+        android:id="@+id/buildingnumber"
+        android:layout_width="match_parent"
+        android:layout_height="25dp" />
+    <TextView
+        android:id="@+id/street"
+        android:layout_width="match_parent"
+        android:layout_height="25dp" />
+    <TextView
+        android:id="@+id/village"
+        android:layout_width="match_parent"
+        android:layout_height="25dp" />
+</LinearLayout>

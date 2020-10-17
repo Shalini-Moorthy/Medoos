@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "294348278654",
+    "firebase_url": "https://medoo-13317.firebaseio.com",
+    "project_id": "medoo-13317",
+    "storage_bucket": "medoo-13317.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:294348278654:android:ce8185c267e2f629d4812f",
+        "android_client_info": {
+          "package_name": "com.example.medoo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "294348278654-1d9nk23ei3l9gh70csn1s6et1j10ohb8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.medoo",
+            "certificate_hash": "a13872d496cb76b285ae4f6f24a0210ef355c262"
+          }
+        },
+        {
+          "client_id": "294348278654-7rdme46jejangupidkn7vqjoi3c81s9i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDP2QPGaFYGaKCbTAbWNQ-du8AQ1aHxdw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "294348278654-7rdme46jejangupidkn7vqjoi3c81s9i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

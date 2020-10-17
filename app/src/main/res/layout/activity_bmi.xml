@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".bmi">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal"
+        android:text="Calculate BMI"
+        android:textColor="#000000"
+        android:textSize="27dp" />
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="60dp"
+       android:orientation="horizontal"
+       >
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="50dp"
+           android:text="Height"
+           android:textColor="#000000"
+           android:textSize="27dp" />
+       <EditText
+           android:inputType="number"
+       android:id="@+id/enterheight"
+           android:hint="Enter in m"
+           android:layout_width="match_parent"
+           android:layout_height="50dp"
+         android:textSize="27dp"
+           android:textColor="#000000"
+           />
+
+   </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="Weight"
+            android:textColor="#000000"
+            android:textSize="27dp" />
+        <EditText
+            android:inputType="number"
+            android:id="@+id/enterweight"
+            android:hint="Enter in Kg"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textSize="27dp"
+            android:textColor="#000000"
+            />
+    </LinearLayout>
+    <Button
+        android:layout_gravity="center_horizontal"
+        android:textColor="#ffffff"
+        android:background="@color/newone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/calculate"
+        android:text="calculate"
+        android:textSize="25dp"
+        />
+    <TextView
+        android:id="@+id/resul1t"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:textSize="30dp"/>
+    <TextView
+        android:id="@+id/result2"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:textSize="30dp"/>
+    </LinearLayout>

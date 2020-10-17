@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:orientation="vertical"
+    tools:context=".hospitalsreg">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="Thanks for your time , please provide valid details of the hospital, you can view it in hospitals page later"
+            android:textColor="#9C27B0"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="Address"
+            android:textColor="#9C27B0"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <EditText
+            android:id="@+id/hospitalname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Hospital name"
+            tools:layout_editor_absoluteX="-4dp"
+            tools:layout_editor_absoluteY="157dp" />
+        <EditText
+            android:id="@+id/specification"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Specifications of the hospital " />
+        <EditText
+            android:id="@+id/timing"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint=" Timing"
+
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="345dp" />
+        <EditText
+            android:id="@+id/number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Contact number"
+            android:inputType="phone"/>
+
+        <EditText
+            android:id="@+id/buildingnumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Building Number " />
+
+
+
+        <EditText
+            android:id="@+id/street"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Street"
+            tools:layout_editor_absoluteX="3dp"
+            tools:layout_editor_absoluteY="195dp" />
+
+
+
+
+    <EditText
+        android:id="@+id/village"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="town/village"
+        tools:layout_editor_absoluteX="-2dp"
+        tools:layout_editor_absoluteY="247dp" />
+    <EditText
+        android:id="@+id/city"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="city"
+        tools:layout_editor_absoluteX="-2dp"
+        tools:layout_editor_absoluteY="247dp" />
+
+    <EditText
+    android:id="@+id/pincode"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint=" pincode  Eg: 600101"
+    android:inputType="phone"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="345dp" />
+    <EditText
+        android:id="@+id/state"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="State Eg:Tamilnadu"
+        tools:layout_editor_absoluteX="-5dp"
+        tools:layout_editor_absoluteY="297dp" />
+
+    <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    >
+        <Button
+        android:id="@+id/submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="submit" />
+
+</LinearLayout>
+    </LinearLayout></LinearLayout>
